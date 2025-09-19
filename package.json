@@ -1,0 +1,17 @@
+{
+  "name": "twilio-openai-assistant",
+  "version": "1.0.0",
+  "description": "Mini servidor Express para probar Render + Twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "twilio": "^4.22.0"
+  }
+}
